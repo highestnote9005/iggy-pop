@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wgh@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    height: 1000px;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+nav .logo img {
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 16px 18px;
+}
+
+nav a {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 32px;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    background-color: #e4e4e4;
+    color: #333;
+}
+
+.center img {
+    position: absolute;
+    top: 28px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    bottom: -55px;
+    margin: 10px;
+    left: 60px;
+    color: #fff;
+    float: left;
+}
+
+.poster img {
+    position: relative;
+    bottom: -580px;
+    left: 68px;
+}
+
+.poster p {
+    position: relative;
+    top: 200px;
+    bottom: -630px;
+    left: 420px;
+    margin: auto;
+    color: #fff;
+
+}
+
+h2 {
+    position: relative;
+    top: 580px;
+    bottom: -630px;
+    left: 420px;
+    margin: auto;
+    color: #fff;
+}
+
+
+.line-division {
+    position: relative;
+    top: -105px;
+    bottom: -630px;
+    width: 105%;
+    background: #fff;
+    height: 2px;
+    margin: 32px 0;
+}
+
+.credits p {
+    position: relative;
+    top: -95px;
+    bottom: -630px;
+    left: 1140px;
+    margin: auto;
+    color: #fff;
+}
